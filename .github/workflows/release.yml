@@ -31,7 +31,8 @@ jobs:
       matrix:
         target:
           - an7581
-          - an7583
+#          - an7583
+          - mediatek_filogic
 
     steps:
       - uses: actions/checkout@v6
